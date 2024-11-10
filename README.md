@@ -103,5 +103,3 @@ Each navbar component is designed for a unique style and interaction. Below are 
     - **Features**: Command Bar, Quick Search, Notification Hub
     - **Category**: Premium
 
-## License
-This navbar kit is intended for personal or commercial use. Please do not resell or redistribute the components individually.
