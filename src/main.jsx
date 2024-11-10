@@ -17,7 +17,7 @@ import Navbar7 from './components/Navbar/Navbar7'
 import Navbar8 from './components/Navbar/Navbar8'
 import Navbar9 from './components/Navbar/Navbar9'
 import Navbar10 from './components/Navbar/Navbar10'
-
+import ErrorPage from './ErrorPage.jsx'
 
 
 
@@ -65,6 +65,10 @@ const router = createBrowserRouter([
   {
     path: "/navbar10",
     element: <Navbar10 />,
+  },
+  {
+    path: "*",
+    element: <ErrorPage />, 
   },
 ]);
 
